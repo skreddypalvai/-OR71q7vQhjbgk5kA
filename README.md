@@ -20,7 +20,7 @@ You are given a set of portfolio companies trading data from emerging markets in
 
 ### <u>Goal(s)</u>:
 
-Predict stock price valuations on a daily basis. Recommend BUY, HOLD, SELL decisions. Maximize capital returns, minimize losses. Ideally a loss should never happen.
+Predict stock price valuations on a daily basis. Recommend BUY, SELL decisions. Maximize capital returns, minimize losses. Ideally a loss should never happen.
 
 
 ### <u>Success Metrics</u>:
@@ -28,7 +28,7 @@ Predict stock price valuations on a daily basis. Recommend BUY, HOLD, SELL decis
 Evaluate on the basis of capital returns. Use Bollinger Bands to measure your systems effectiveness.
 
 ###  <u>Project Overview</u>:
-*  The main goal is to predict 2021 stock prices of given portfolio companies using trading data from emerging markets, including 2020 stock price data. Additionally, we aim to recommend Buy, Hold, Sell decisions, with a focus on maximizing capital returns and minimizing losses. Our evaluation will be based on capital returns, and we will also utilize Bollinger Bands to gauge our system's effectiveness.
+*  The main goal is to predict 2021 stock prices of given portfolio companies using trading data from emerging markets, including 2020 stock price data. Additionally, we aim to recommend Buy, Sell decisions, with a focus on maximizing capital returns and minimizing losses. Our evaluation will be based on capital returns, and we will also utilize Bollinger Bands to gauge our system's effectiveness.
 *  The dataset contains 8 different markets from around the world. Each dataset shares the same features: 'Date', 'Price', 'Open', 'High', 'Low', 'Vol.', and 'Change %'. After loading the dataset with the Date as the index, it went through preprocessing steps, which included replacing the variables ('M', 'K', '-') in the 'Change %' column and dividing the data into training for 2020 and testing for 2021. Prepared the time sequence data for model fitting.
 *  I applied a univariate LSTM model on the training data, using varying time steps for each dataset and optimizing for MSE. After identifying the best MSE, I implemented a trading strategy based on Bollinger Bands to provide Buy and Sell signals. Each unique market achieved positive capital returns without any losses.
 
