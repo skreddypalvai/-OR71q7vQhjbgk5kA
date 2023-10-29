@@ -20,8 +20,15 @@ Predict stock price valuations on a daily basis. Recommend BUY, SELL decisions. 
 ### <u>Data Description</u>:
 
 
-You are given a set of portfolio companies trading data from emerging markets including 2020 Q1-Q2-Q3-Q4 2021 Q1 stock prices. Each company stock is provided in different sheets. Each market's operating days varies based on the country of the company and the market the stocks are exchanged. Use only 2020 data and predict with 2021 Q1 data.
-
+You are given a set of portfolio companies trading data from emerging markets including 2020 Q1-Q2-Q3-Q4 2021 Q1 stock prices. Each company stock is provided in different sheets. Each market's operating days varies based on the country of the company and the market the stocks are exchanged. Use only 2020 data and predict with 2021 Q1 data. Here's the list of 8 companies:
+1. Sberbank Rossii PAO(SBER) - Russia.
+2. Koc Holding AS (KCHOL) - Turkey.
+3. Medinet Masr Housing  - Egypt.
+4. Minerva SABrazil - Brazil.
+5. Pampa Energia SA - Argentina.
+6. Cementos Argos SA - Colombia.
+7. Impala Platinum - South Africa.
+8. Dongkuk Steel Mil - South Korea.
 
 
 ### <u>Success Metrics</u>:
