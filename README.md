@@ -47,6 +47,7 @@ Evaluate on the basis of capital returns. Use Bollinger Bands to measure your sy
 *  Buy at 7683.55 and Sell at 8559.57
 *  Initial Capital : 100000
 *  Final Capital : 111822.42
+*  Number of Trades : 6
     ![Korea](https://github.com/skreddypalvai/2EMtf9Oi5Ts8qRbT/assets/137756791/12648009-0f4b-4670-96c8-1f2afa266842)
 ### Conclusion:
 In March, the stock market of all eight companies experienced a downturn due to the impact of the coronavirus pandemic. However, by May, the market had corrected itself, which aligns with the pandemic's timeline. With limited data available, a simple LSTM model was constructed for training. Each individual market exhibited a consistent and decent profit, with no losses incurred.
