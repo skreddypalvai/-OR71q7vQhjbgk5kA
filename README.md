@@ -41,6 +41,22 @@ Evaluate on the basis of capital returns. Use Bollinger Bands to measure your sy
 *  I applied a univariate LSTM model on the training data, using varying time steps for each dataset and optimizing MSE. After identifying the best MSE, I implemented a trading strategy based on Bollinger Bands to provide Buy and Sell signals. Each unique market achieved positive capital returns without any losses.
 
 ### <u>Key Results</u>:
+#### Russia - Sberbank Rossii PAO's market signal for 2021 were recommended below after prediction:
+*  Buy at 263.57 and Sell at 262.853
+*  Buy at 257.542 and Sell at 279.2876
+*  Initial Capital: 10000
+*  Final Capital: 10814.8343
+*  Number of Trades: 4
+![RUSS-8](https://github.com/skreddypalvai/Predicting_Stock_Prices/assets/137756791/1f419d43-3a21-42b6-82b4-a3af6677fccd)
+
+#### Turkey - KCHOL's market signals for 2021 were recommended below after prediction:
+*  Buy at 21.78 and Sell at 21.832
+*  Buy at 21.344 and Sell at 20.743
+*  Buy at 20.22 and Sell at 22.251
+*  Initial Capital: 10000
+*  Final Capital: 10718.3075
+![Turkey-7](https://github.com/skreddypalvai/Predicting_Stock_Prices/assets/137756791/2f0b3340-12b2-4c66-b639-8cf3ec661907)
+
 #### Dongkuk Steel Mill's market signals for 2021 were recommended below after prediction :
 *  Buy at 8676.28 and Sell at 8642.546
 *  Buy at 8397.57 and Sell at 8462.22
@@ -49,5 +65,6 @@ Evaluate on the basis of capital returns. Use Bollinger Bands to measure your sy
 *  Final Capital : 111822.42
 *  Number of Trades : 6
     ![Korea](https://github.com/skreddypalvai/2EMtf9Oi5Ts8qRbT/assets/137756791/12648009-0f4b-4670-96c8-1f2afa266842)
+
 ### Conclusion:
 In March, the stock market of all eight companies experienced a downturn due to the impact of the coronavirus pandemic. However, by May, the market had corrected itself, which aligns with the pandemic's timeline. With limited data available, a simple LSTM model was constructed for training. Each individual market exhibited a consistent and decent profit, with no losses incurred.
